@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mi_custom"
+        android:title="Crear juego personalizado"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mi_download"
+        android:title="Descargar juego personalizado"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mi_new_size"
+        android:title="Escoger dificultad"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mi_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:title="Refresh"
+        app:showAsAction="always" />
+</menu>
